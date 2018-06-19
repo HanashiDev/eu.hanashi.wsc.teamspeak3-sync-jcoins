@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com https://www.woltlab.com/XSD/vortex/language.xsd" languagecode="de">
+	<category name="wcf.jcoins.statement">
+		<item name="wcf.jcoins.statement.category.de.wcflabs.jcoins.teamspeak3"><![CDATA[TeamSpeak3-Synchronisation]]></item>
+		<item name="wcf.jcoins.statement.title.de.wcflabs.jcoins.statement.teamspeak3.start"><![CDATA[TeamSpeak3-Identität]]></item>
+		<item name="wcf.jcoins.statement.title.retractable.de.wcflabs.jcoins.statement.teamspeak3.start"><![CDATA[TeamSpeak3-Identität entfernt]]></item>
+	</category>
+</language>

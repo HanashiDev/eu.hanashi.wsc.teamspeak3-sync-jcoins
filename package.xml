@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="eu.hanashi.wsc.teamspeak3-sync-jcoins" xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/package.xsd">
+    <packageinformation>
+        <packagename><![CDATA[Teampeak3 Synchronization JCoins]]></packagename>
+        <packagename language="de"><![CDATA[Teamspeak3 Synchronisierung JCoins]]></packagename>
+        <packagedescription><![CDATA[Synchronizes user groups between woltlab suite core and Teampseak3.]]></packagedescription>
+        <packagedescription language="de"><![CDATA[Ergänzt JCoins-Abhängigkeit für TeamSpeak3-Synchronisation.]]></packagedescription>
+        <version>1.0.0 Alpha 1</version>
+        <date>2018-06-19</date>
+    </packageinformation>
+
+    <authorinformation>
+        <author><![CDATA[Hanashi]]></author>
+        <authorurl><![CDATA[https://hanashi.eu/]]></authorurl>
+    </authorinformation>
+	
+	<compatibility>
+		<api version="2018" />
+	</compatibility>
+
+    <requiredpackages>
+        <requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
+        <requiredpackage minversion="1.0.0 Alpha 4">eu.hanashi.wsc.teamspeak3-sync</requiredpackage>
+        <requiredpackage minversion="3.1.0">de.wcflabs.wcf.jcoins</requiredpackage>
+    </requiredpackages>
+	
+	<excludedpackages>
+        <excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
+    </excludedpackages>
+
+    <instructions type="install">
+		<!-- file -->
+        <instruction type="file"/>
+		
+		<!-- language -->
+        <instruction type="language"/>
+		
+		<!-- config -->
+        <instruction type="eventListener" />
+        <instruction type="objectType" />
+    </instructions>
+</package>
