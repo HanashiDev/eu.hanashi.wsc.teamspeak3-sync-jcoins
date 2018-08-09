@@ -5,8 +5,8 @@
         <packagename language="de"><![CDATA[Teamspeak3 Synchronisierung JCoins]]></packagename>
         <packagedescription><![CDATA[Synchronizes user groups between woltlab suite core and Teampseak3.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Ergänzt JCoins-Abhängigkeit für TeamSpeak3-Synchronisation.]]></packagedescription>
-        <version>1.0.0 Alpha 1</version>
-        <date>2018-06-19</date>
+        <version>1.0.0</version>
+        <date>2018-08-09</date>
     </packageinformation>
 
     <authorinformation>
@@ -20,7 +20,7 @@
 
     <requiredpackages>
         <requiredpackage minversion="3.1.0">com.woltlab.wcf</requiredpackage>
-        <requiredpackage minversion="1.0.0 Alpha 4">eu.hanashi.wsc.teamspeak3-sync</requiredpackage>
+        <requiredpackage minversion="1.0.0">eu.hanashi.wsc.teamspeak3-sync</requiredpackage>
         <requiredpackage minversion="3.1.0">de.wcflabs.wcf.jcoins</requiredpackage>
     </requiredpackages>
 	
@@ -39,4 +39,9 @@
         <instruction type="eventListener" />
         <instruction type="objectType" />
     </instructions>
+	
+	<instructions type="update" fromversion="1.0.0 Alpha 1">
+		<!-- file -->
+        <instruction type="file"/>
+	</instructions>
 </package>
