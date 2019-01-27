@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data xmlns="https://www.woltlab.com" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.woltlab.com https://www.woltlab.com/XSD/vortex/eventListener.xsd">
-    <import>
+	<import>
 		<eventlistener name="jcoinsTeamspeak3AddListener">
-			<eventclassname>wcf\data\user\teamspeak3id\Teamspeak3IDAction</eventclassname>
+			<eventclassname>wcf\data\user\teamspeak\TeamspeakAction</eventclassname>
 			<eventname>finalizeAction</eventname>
 			<listenerclassname>wcf\system\event\listener\JCoinsTeamspeak3AddListener</listenerclassname>
 		</eventlistener>
-    </import>
+	</import>
 </data>
