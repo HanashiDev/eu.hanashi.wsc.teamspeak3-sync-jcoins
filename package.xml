@@ -5,8 +5,8 @@
         <packagename language="de"><![CDATA[TeamSpeak-Sync (JCoins)]]></packagename>
         <packagedescription><![CDATA[Synchronizes user groups between WSC and TeamSpeak.]]></packagedescription>
         <packagedescription language="de"><![CDATA[Ergänzt JCoins-Abhängigkeit für TeamSpeak-Sync.]]></packagedescription>
-        <version>1.1.0</version>
-        <date>2019-01-27</date>
+        <version>1.1.1</version>
+        <date>2019-12-10</date>
     </packageinformation>
 
     <authorinformation>
@@ -23,10 +23,6 @@
         <requiredpackage minversion="1.2.0 pl 1">eu.hanashi.wsc.teamspeak3-sync</requiredpackage>
         <requiredpackage minversion="3.1.1">de.wcflabs.wcf.jcoins</requiredpackage>
     </requiredpackages>
-	
-	<excludedpackages>
-        <excludedpackage version="3.2.0 Alpha 1">com.woltlab.wcf</excludedpackage>
-    </excludedpackages>
 
     <instructions type="install">
 		<!-- file -->
@@ -40,12 +36,8 @@
         <instruction type="objectType" />
     </instructions>
 	
-	<instructions type="update" fromversion="1.0.0">
+	<instructions type="update" fromversion="1.1.0">
 		<!-- language -->
         <instruction type="language"/>
-
-		<!-- config -->
-        <instruction type="eventListener" />
-        <instruction type="objectType" />
 	</instructions>
 </package>
