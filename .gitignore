@@ -1,2 +1,4 @@
-*.tar
-option.xml
+/*.tar
+.phpcs-cache
+node_modules/
+*.cache
